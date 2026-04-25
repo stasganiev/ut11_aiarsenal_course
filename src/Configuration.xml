@@ -11816,6 +11816,7 @@
 			<DataProcessor>КонструкторФормул</DataProcessor>
 			<DataProcessor>КриптографияБЭД</DataProcessor>
 			<DataProcessor>ЛегальностьПолученияОбновлений</DataProcessor>
+			<DataProcessor>МассовоеИзменениеЦен</DataProcessor>
 			<DataProcessor>МастерПереходаВОблако</DataProcessor>
 			<DataProcessor>МашиночитаемыеДоверенностиОблачногоЭДО</DataProcessor>
 			<DataProcessor>МеждународныйКлассификаторВалют</DataProcessor>

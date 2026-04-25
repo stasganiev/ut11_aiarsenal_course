@@ -36,6 +36,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельАдминистрированияУчетПрослеживаемыхТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЭлектронныеПеревозочныеДокументы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗагрузитьДокументПоСсылке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МассовоеИзменениеЦен</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
