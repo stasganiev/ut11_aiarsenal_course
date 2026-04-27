@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Title>
 		<v8:item>
@@ -7,12 +7,10 @@
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<Autofill>true</Autofill>
-	</AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаПараметрыОтбора" id="100">
@@ -24,8 +22,6 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
-			<Representation>WeakSeparation</Representation>
-			<ShowTitle>true</ShowTitle>
 			<ExtendedTooltip name="ГруппаПараметрыОтбораРасширеннаяПодсказка" id="101"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаПараметрыСтрока1" id="110">
@@ -89,9 +85,9 @@
 							<TitleLocation>Top</TitleLocation>
 							<Width>40</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 							<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="151"/>
 							<ExtendedTooltip name="ГруппаНоменклатурыРасширеннаяПодсказка" id="152"/>
-							<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 							<Events>
 								<Event name="OnChange">ГруппаНоменклатурыПриИзменении</Event>
 							</Events>
@@ -105,6 +101,8 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВключаяПодгруппыКонтекстноеМеню" id="522"/>
 							<ExtendedTooltip name="ВключаяПодгруппыРасширеннаяПодсказка" id="161"/>
 							<Events>
 								<Event name="OnChange">ВключаяПодгруппыПриИзменении</Event>
@@ -119,6 +117,8 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТолькоСУстановленнойЦенойКонтекстноеМеню" id="523"/>
 							<ExtendedTooltip name="ТолькоСУстановленнойЦенойРасширеннаяПодсказка" id="171"/>
 						</CheckBoxField>
 					</ChildItems>
@@ -126,14 +126,12 @@
 			</ChildItems>
 		</UsualGroup>
 		<CommandBar name="ГруппаКомандыЗаполнения" id="200">
-			<HorizontalLocation>Left</HorizontalLocation>
 			<ExtendedTooltip name="ГруппаКомандыЗаполненияРасширеннаяПодсказка" id="201"/>
 			<ChildItems>
 				<Button name="КнопкаЗаполнить" id="210">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.Command.Заполнить</CommandName>
 					<Representation>Picture</Representation>
-					<DefaultButton>false</DefaultButton>
+					<CommandName>Form.Command.Заполнить</CommandName>
 					<ExtendedTooltip name="КнопкаЗаполнитьРасширеннаяПодсказка" id="211"/>
 				</Button>
 				<Button name="КнопкаОчистить" id="220">
@@ -187,6 +185,9 @@
 			</ChildItems>
 		</UsualGroup>
 		<Table name="ТаблицаНоменклатуры" id="400">
+			<Representation>List</Representation>
+			<CommandBarLocation>Top</CommandBarLocation>
+			<ChangeRowOrder>false</ChangeRowOrder>
 			<DataPath>ТаблицаНоменклатуры</DataPath>
 			<Title>
 				<v8:item>
@@ -194,10 +195,9 @@
 					<v8:content>Номенклатура</v8:content>
 				</v8:item>
 			</Title>
-			<TitleLocation>None</TitleLocation>
-			<CommandBarLocation>Top</CommandBarLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаНоменклатурыКонтекстноеМеню" id="406"/>
 			<AutoCommandBar name="ТаблицаНоменклатурыКоманднаяПанель" id="401">
-				<Autofill>true</Autofill>
 				<ChildItems>
 					<Button name="КнопкаУстановитьВсеПометки" id="402">
 						<Type>CommandBarButton</Type>
@@ -211,15 +211,31 @@
 					</Button>
 				</ChildItems>
 			</AutoCommandBar>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>true</VerticalStretch>
-			<Representation>List</Representation>
-			<ChangeRowSet>true</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
-			<HeaderHeight>1</HeaderHeight>
-			<Header>true</Header>
-			<ContextMenu name="ТаблицаНоменклатурыКонтекстноеМеню" id="406"/>
 			<ExtendedTooltip name="ТаблицаНоменклатурыРасширеннаяПодсказка" id="407"/>
+			<SearchStringAddition name="ТаблицаНоменклатурыСтрокаПоиска" id="524">
+				<AdditionSource>
+					<Item>ТаблицаНоменклатуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаНоменклатурыСтрокаПоискаКонтекстноеМеню" id="525"/>
+				<ExtendedTooltip name="ТаблицаНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="526"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаНоменклатурыСостояниеПросмотра" id="527">
+				<AdditionSource>
+					<Item>ТаблицаНоменклатуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="528"/>
+				<ExtendedTooltip name="ТаблицаНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="529"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаНоменклатурыУправлениеПоиском" id="530">
+				<AdditionSource>
+					<Item>ТаблицаНоменклатуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаНоменклатурыУправлениеПоискомКонтекстноеМеню" id="531"/>
+				<ExtendedTooltip name="ТаблицаНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="532"/>
+			</SearchControlAddition>
 			<ChildItems>
 				<CheckBoxField name="ТаблицаНоменклатурыПометка" id="410">
 					<DataPath>ТаблицаНоменклатуры.Пометка</DataPath>
@@ -230,6 +246,8 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаНоменклатурыПометкаКонтекстноеМеню" id="533"/>
 					<ExtendedTooltip name="ТаблицаНоменклатурыПометкаРасширеннаяПодсказка" id="411"/>
 				</CheckBoxField>
 				<InputField name="ТаблицаНоменклатурыНоменклатура" id="420">
@@ -345,8 +363,8 @@
 			<ChildItems>
 				<Button name="КнопкаЗаписатьЦены" id="510">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.Command.ЗаписатьЦены</CommandName>
 					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ЗаписатьЦены</CommandName>
 					<ExtendedTooltip name="КнопкаЗаписатьЦеныРасширеннаяПодсказка" id="511"/>
 				</Button>
 				<Button name="КнопкаОткрытьПоследнийДокумент" id="520">

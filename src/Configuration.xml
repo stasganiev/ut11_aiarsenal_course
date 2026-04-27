@@ -6358,6 +6358,7 @@
 			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
+			<CommonModule>ТестовыйМодульКлиентСервер</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
