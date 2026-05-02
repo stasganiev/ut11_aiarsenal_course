@@ -6359,6 +6359,8 @@
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
 			<CommonModule>ТестовыйМодульКлиентСервер</CommonModule>
+			<CommonModule>РасчётСкидок</CommonModule>
+			<CommonModule>ЦенообразованиеСервер</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -7841,6 +7843,7 @@
 			<FunctionalOption>ФормироватьФинансовыйРезультат</FunctionalOption>
 			<FunctionalOption>ХранитьИсториюРассылкиОтчетов</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
+			<FunctionalOption>УчитыватьИндивидуальныеЦены</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>НастройкаФормы</FunctionalOptionsParameter>
@@ -9457,6 +9460,8 @@
 			<Constant>ШаблонЭтикеткиДляДоставки</Constant>
 			<Constant>ШаблонЭтикеткиУпаковочногоЛиста</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<Constant>УчитыватьИндивидуальныеЦены</Constant>
+			<Constant>МаксимальнаяСкидкаПоУмолчанию</Constant>
 			<CommonForm>АварийныйРежимИСМП</CommonForm>
 			<CommonForm>АвтоматическийОбменСПодключаемымОборудованиемOffline</CommonForm>
 			<CommonForm>АвтономнаяРабота</CommonForm>
@@ -12791,6 +12796,7 @@
 			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиПоМЧД</InformationRegister>
+			<InformationRegister>СоглашенияОЦенообразовании</InformationRegister>
 			<AccumulationRegister>БонусныеБаллы</AccumulationRegister>
 			<AccumulationRegister>ВыручкаИСебестоимостьПродаж</AccumulationRegister>
 			<AccumulationRegister>ДвиженияДенежныеСредстваДоходыРасходы</AccumulationRegister>
