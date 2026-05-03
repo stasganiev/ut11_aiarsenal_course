@@ -27146,7 +27146,7 @@
 		<Metadata name="CommonTemplate.ШаблоныСообщенийEDI.Template" id="ce55d3aa-1145-4dc5-b6e1-869cdc31a8ef.0" configVersion="beceff2ac3987a4d8866d6421e56e40c00000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС" id="97197400-b866-48fa-a789-a2d0fe2906a0" configVersion="0ec38115c275f047a15dcc5cf4a93e2800000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС.Template" id="97197400-b866-48fa-a789-a2d0fe2906a0.0" configVersion="339a40de3a48fb418d2fcf9c347effcd00000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="59a01c9ec0324348823b65126ea69a2e00000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="d2a8ca467b053c4ba07f292e2f75c0d000000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ClientApplicationInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.b" configVersion="3360b75d0ed0e5408380a2ae30b7893f00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.CommandInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.a" configVersion="088416bf22632142ad13f8eea7b9b4a600000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.5" configVersion="0ba78efc1b5b7746a98245a832491f5000000000"/>
@@ -81860,6 +81860,7 @@
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5" configVersion="914d8d3eca23c2419baad1766805632000000000"/>
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели.CommandInterface" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5.1" configVersion="4a0ea89961f9f5418dc63cec8aaaca5b00000000"/>
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели.Help" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5.0" configVersion="aca92d1e22e75c4eb1ceaa00723829d600000000"/>
+		<Metadata name="Subsystem.Ценообразование" id="28149e47-a6bd-46d0-b8aa-3e491c00deec" configVersion="ae859a05b86da944b8849cb1af0e01ed00000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие" id="9acf8351-fc57-45f6-8bdd-3dec7617e904" configVersion="6e411ca556297243bf11eb177d8f2c3c00000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие.CommandInterface" id="9acf8351-fc57-45f6-8bdd-3dec7617e904.1" configVersion="b431a6150ee8d84aaeffdc7ea47bd93600000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие.Help" id="9acf8351-fc57-45f6-8bdd-3dec7617e904.0" configVersion="ec4de6b5ae5ed248a852b6d5ca08aae000000000"/>

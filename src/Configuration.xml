@@ -314,6 +314,7 @@
 			<Subsystem>ТехнологияСервиса</Subsystem>
 			<Subsystem>ФинансовыйРезультатИКонтроллинг</Subsystem>
 			<Subsystem>ЭлектронноеВзаимодействие</Subsystem>
+			<Subsystem>Ценообразование</Subsystem>
 			<StyleItem>АктуальнаяПодпискаЦвет</StyleItem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ВажныеДанныеЦветБЭД</StyleItem>
