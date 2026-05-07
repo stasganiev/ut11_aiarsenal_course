@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(not exist *)"
+      "Bash(not exist *)",
+      "Bash(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")",
+      "PowerShell(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")"
     ]
   }
 }
