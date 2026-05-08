@@ -20361,6 +20361,8 @@
 		<Metadata name="CommonModule.ОборудованиеЧекопечатающиеУстройстваЛокализация.Module" id="7270ae27-b4ce-4fd8-9ceb-a4c23814bd4a.0" configVersion="87cc4987913d694e8566912a52bcf3f400000000"/>
 		<Metadata name="CommonModule.ОборудованиеЧекопечатающиеУстройстваРФКлиентСервер" id="a81fcb4f-515d-41ef-bac9-a6a5b1952620" configVersion="e9e514fd92e5d9428b568cef92d9e96000000000"/>
 		<Metadata name="CommonModule.ОборудованиеЧекопечатающиеУстройстваРФКлиентСервер.Module" id="a81fcb4f-515d-41ef-bac9-a6a5b1952620.0" configVersion="4f976163fb279948ad090e69bd7f5a4900000000"/>
+		<Metadata name="CommonModule.ОбработкаЗаказов" id="20092ad4-01d7-4645-b637-0472c62d66ec" configVersion="96993cb70181ea41888814a7d3e78d8a00000000"/>
+		<Metadata name="CommonModule.ОбработкаЗаказов.Module" id="20092ad4-01d7-4645-b637-0472c62d66ec.0" configVersion="de1470691747294c9254426f1cab9f9800000000"/>
 		<Metadata name="CommonModule.ОбработкаНеисправностейБЭД" id="3266e89e-c877-4e48-885a-38705ba5b94d" configVersion="9dd60da3d4dac0459f22031216a30adb00000000"/>
 		<Metadata name="CommonModule.ОбработкаНеисправностейБЭД.Module" id="3266e89e-c877-4e48-885a-38705ba5b94d.0" configVersion="3a470b8536c0734f948a6dc59884a95900000000"/>
 		<Metadata name="CommonModule.ОбработкаНеисправностейБЭДВызовСервера" id="b639f5b6-ea6d-4cce-84e9-7ce457b6ec2e" configVersion="7a503bdd9200564b80fa45dc71f6e1c800000000"/>
@@ -27146,7 +27148,7 @@
 		<Metadata name="CommonTemplate.ШаблоныСообщенийEDI.Template" id="ce55d3aa-1145-4dc5-b6e1-869cdc31a8ef.0" configVersion="beceff2ac3987a4d8866d6421e56e40c00000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС" id="97197400-b866-48fa-a789-a2d0fe2906a0" configVersion="0ec38115c275f047a15dcc5cf4a93e2800000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС.Template" id="97197400-b866-48fa-a789-a2d0fe2906a0.0" configVersion="339a40de3a48fb418d2fcf9c347effcd00000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="d2a8ca467b053c4ba07f292e2f75c0d000000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="33e8a4671b07c9458ff4a0fde2b668c900000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ClientApplicationInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.b" configVersion="3360b75d0ed0e5408380a2ae30b7893f00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.CommandInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.a" configVersion="088416bf22632142ad13f8eea7b9b4a600000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.5" configVersion="0ba78efc1b5b7746a98245a832491f5000000000"/>
@@ -81860,7 +81862,7 @@
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5" configVersion="914d8d3eca23c2419baad1766805632000000000"/>
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели.CommandInterface" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5.1" configVersion="4a0ea89961f9f5418dc63cec8aaaca5b00000000"/>
 		<Metadata name="Subsystem.ФинансовыйРезультатИКонтроллинг.Subsystem.ЦелевыеПоказатели.Help" id="9a0c5f38-ea52-418b-89d1-e7af63c31ce5.0" configVersion="aca92d1e22e75c4eb1ceaa00723829d600000000"/>
-		<Metadata name="Subsystem.Ценообразование" id="28149e47-a6bd-46d0-b8aa-3e491c00deec" configVersion="ae859a05b86da944b8849cb1af0e01ed00000000"/>
+		<Metadata name="Subsystem.Ценообразование" id="28149e47-a6bd-46d0-b8aa-3e491c00deec" configVersion="4b4f926bb627384a9313a187976a183000000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие" id="9acf8351-fc57-45f6-8bdd-3dec7617e904" configVersion="6e411ca556297243bf11eb177d8f2c3c00000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие.CommandInterface" id="9acf8351-fc57-45f6-8bdd-3dec7617e904.1" configVersion="b431a6150ee8d84aaeffdc7ea47bd93600000000"/>
 		<Metadata name="Subsystem.ЭлектронноеВзаимодействие.Help" id="9acf8351-fc57-45f6-8bdd-3dec7617e904.0" configVersion="ec4de6b5ae5ed248a852b6d5ca08aae000000000"/>

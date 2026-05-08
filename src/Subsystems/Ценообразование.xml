@@ -22,6 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальнаяСкидкаПоУмолчанию</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.УчитыватьИндивидуальныеЦены</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоглашенияОЦенообразовании</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбработкаЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МассовоеИзменениеЦен</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

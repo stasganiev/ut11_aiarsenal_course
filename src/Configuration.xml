@@ -6362,6 +6362,7 @@
 			<CommonModule>ТестовыйМодульКлиентСервер</CommonModule>
 			<CommonModule>РасчётСкидок</CommonModule>
 			<CommonModule>ЦенообразованиеСервер</CommonModule>
+			<CommonModule>ОбработкаЗаказов</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
