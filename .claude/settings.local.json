@@ -3,7 +3,8 @@
     "allow": [
       "Bash(not exist *)",
       "Bash(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")",
-      "PowerShell(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")"
+      "PowerShell(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\review\")"
     ]
   }
 }
