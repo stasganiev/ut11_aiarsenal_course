@@ -2516,6 +2516,7 @@
 			<SessionParameter>ТипыЗначенийДоступаСГруппами</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
 			<SessionParameter>ХозяйственныеОперацииСНастройкамиОграниченийДоступа</SessionParameter>
+			<SessionParameter>КэшЦен</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>Администрирование</Role>
 			<Role>АналитическиеОтчетыСПАРКРиски</Role>
@@ -6363,6 +6364,7 @@
 			<CommonModule>РасчётСкидок</CommonModule>
 			<CommonModule>ЦенообразованиеСервер</CommonModule>
 			<CommonModule>ОбработкаЗаказов</CommonModule>
+			<CommonModule>ЦенообразованиеРасчет</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -10214,6 +10216,7 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
+			<Catalog>Акции</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктИнвентаризацииСАТУРН</Document>
@@ -11420,6 +11423,8 @@
 			<Enum>ЭтапыСинхронизацииДокументовEDI</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ЮрФизЛицо</Enum>
+			<Enum>ПравилаОкругления</Enum>
+			<Enum>КатегорииКлиентов</Enum>
 			<Report>ABCXYZАнализНоменклатуры</Report>
 			<Report>ABCXYZРаспределениеКлиентов</Report>
 			<Report>АнализВерсийОбъектов</Report>
