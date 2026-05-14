@@ -4,7 +4,15 @@
       "Bash(not exist *)",
       "Bash(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")",
       "PowerShell(Rename-Item \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\tests\\\\ЦенообразованиеСервер_Тесты.os\" \"ЦенообразованиеСервер_Тесты.bsl\")",
-      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\review\")"
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\work\\\\review\")",
+      "Bash(Get-ChildItem -Recurse -Filter \"*Доступом*\" -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\")",
+      "Bash(Select-Object -First 20)",
+      "Bash(Get-ChildItem -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\" -Filter \"*ключ*\" -Recurse -Directory)",
+      "Bash(powershell -Command \"Get-ChildItem -Path 'c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\CommonModules\\\\УправлениеДоступом*\\\\Ext\\\\Module.bsl' -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\CommonModules\" -Filter \"*УправлениеДоступом*\" -Directory)",
+      "Bash(Select-Object FullName)",
+      "Bash(powershell -Command ' *)",
+      "Bash(awk -F: 'BEGIN{pr=0} /УстановитьПривилегированныйРежим\\\\\\(Истина\\\\\\)/{pr=$1; fn=\"?\"} /УстановитьПривилегированныйРежим\\\\\\(Ложь\\\\\\)/{if\\(pr>0\\){pr=0}} /КонецПроцедуры|КонецФункции/{if\\(pr>0\\){print \"UNPAIRED at line \" pr \" -> end at \" $1; pr=0}}')"
     ]
   }
 }
