@@ -29,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПравилаОкругления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КатегорииКлиентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.КэшЦен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыПравилЦенообразования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПравилаЦенообразованияКатегорий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

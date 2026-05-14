@@ -12,7 +12,16 @@
       "Bash(Get-ChildItem -Path \"C:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\CommonModules\" -Filter \"*УправлениеДоступом*\" -Directory)",
       "Bash(Select-Object FullName)",
       "Bash(powershell -Command ' *)",
-      "Bash(awk -F: 'BEGIN{pr=0} /УстановитьПривилегированныйРежим\\\\\\(Истина\\\\\\)/{pr=$1; fn=\"?\"} /УстановитьПривилегированныйРежим\\\\\\(Ложь\\\\\\)/{if\\(pr>0\\){pr=0}} /КонецПроцедуры|КонецФункции/{if\\(pr>0\\){print \"UNPAIRED at line \" pr \" -> end at \" $1; pr=0}}')"
+      "Bash(awk -F: 'BEGIN{pr=0} /УстановитьПривилегированныйРежим\\\\\\(Истина\\\\\\)/{pr=$1; fn=\"?\"} /УстановитьПривилегированныйРежим\\\\\\(Ложь\\\\\\)/{if\\(pr>0\\){pr=0}} /КонецПроцедуры|КонецФункции/{if\\(pr>0\\){print \"UNPAIRED at line \" pr \" -> end at \" $1; pr=0}}')",
+      "Bash(Get-ChildItem -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(Get-Content \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ВидыЦен.xml\")",
+      "Bash(Select-Object -Last 100)",
+      "PowerShell(Get-ChildItem \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\EventSubscriptions\\\\\" | Where-Object { $_.Name -match \"Цен|Регистр|Набор\" } | Select-Object -ExpandProperty Name)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Enums\\\\ТипыПравилЦенообразования\" -Force)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Ext\" -Force)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаЭлемента\\\\Ext\\\\Form\" -Force)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаСписка\\\\Ext\" -Force)"
     ]
   }
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ctx="http://v8.1c.ru/8.2/managed-application/context" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Attributes>
+		<Attribute id="1" name="Объект" title="Правило ценообразования категории">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ПравилаЦенообразованияКатегорий</v8:Type>
+			</Type>
+			<Attribute id="2" name="ТоварнаяКатегория"/>
+			<Attribute id="3" name="Приоритет"/>
+			<Attribute id="4" name="ТипПравила"/>
+			<Attribute id="5" name="Наценка"/>
+			<Attribute id="6" name="Коэффициент"/>
+			<Attribute id="7" name="КонкурентнаяЦена"/>
+			<Attribute id="8" name="ФиксированнаяЦена"/>
+			<Attribute id="9" name="МинимальнаяНаценка"/>
+			<Attribute id="10" name="ПравилоОкругления"/>
+			<Attribute id="11" name="Действует"/>
+		</Attribute>
+	</Attributes>
+	<Items>
+		<FormGroup id="12" name="ГруппаОбщая" type="UsualGroup" title="Основное">
+			<Items>
+				<Field id="13" name="ТоварнаяКатегорияПоле" dataPath="Объект.ТоварнаяКатегория" title="Товарная категория"/>
+				<Field id="14" name="ТипПравилаПоле" dataPath="Объект.ТипПравила" title="Тип правила"/>
+				<Field id="15" name="ПриоритетПоле" dataPath="Объект.Приоритет" title="Приоритет"/>
+				<Field id="16" name="НаценкаПоле" dataPath="Объект.Наценка" title="Наценка, %"/>
+				<Field id="17" name="КоэффициентПоле" dataPath="Объект.Коэффициент" title="Коэффициент"/>
+				<Field id="18" name="КонкурентнаяЦенаПоле" dataPath="Объект.КонкурентнаяЦена" title="Конкурентная цена"/>
+				<Field id="19" name="ФиксированнаяЦенаПоле" dataPath="Объект.ФиксированнаяЦена" title="Фиксированная цена"/>
+				<Field id="20" name="МинимальнаяНаценкаПоле" dataPath="Объект.МинимальнаяНаценка" title="Минимальная наценка, %"/>
+				<Field id="21" name="ПравилоОкругленияПоле" dataPath="Объект.ПравилоОкругления" title="Правило округления"/>
+				<Field id="22" name="ДействуетПоле" dataPath="Объект.Действует" title="Действует"/>
+			</Items>
+		</FormGroup>
+	</Items>
+	<MainAttribute>1</MainAttribute>
+</Form>
