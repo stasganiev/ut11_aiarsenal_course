@@ -21,7 +21,8 @@
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Enums\\\\ТипыПравилЦенообразования\" -Force)",
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Ext\" -Force)",
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаЭлемента\\\\Ext\\\\Form\" -Force)",
-      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаСписка\\\\Ext\" -Force)"
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаСписка\\\\Ext\" -Force)",
+      "Bash(python3 -)"
     ]
   }
 }

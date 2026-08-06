@@ -6365,6 +6365,9 @@
 			<CommonModule>ЦенообразованиеСервер</CommonModule>
 			<CommonModule>ОбработкаЗаказов</CommonModule>
 			<CommonModule>ЦенообразованиеРасчет</CommonModule>
+			<CommonModule>ЗагрузкаКурсовВалютЦБКлиентСервер</CommonModule>
+			<CommonModule>ЗагрузкаКурсовВалютЦБ</CommonModule>
+			<CommonModule>ЗагрузкаКурсовВалютЦБРегламентноеЗадание</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>

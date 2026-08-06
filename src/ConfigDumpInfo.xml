@@ -18656,6 +18656,12 @@
 		<Metadata name="CommonModule.ЗагрузкаДанныхИзФайлаКлиентСервер.Module" id="ddeec7f4-8bd3-40af-bcac-00d18c0e6d6a.0" configVersion="98e101b4864608429cd8c1ebb3386b9000000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхИзФайлаПереопределяемый" id="f0438b0a-7916-4de4-a3a8-d43407c3295f" configVersion="24477a095415a544b263b36f8460592b00000000"/>
 		<Metadata name="CommonModule.ЗагрузкаДанныхИзФайлаПереопределяемый.Module" id="f0438b0a-7916-4de4-a3a8-d43407c3295f.0" configVersion="4914d58f0b76904984e1faa2282213ef00000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБ" id="9b3b409f-9732-4930-b2b8-84a591347508" configVersion="2e2804ed97a23b4da37e558d5332b9b400000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБ.Module" id="9b3b409f-9732-4930-b2b8-84a591347508.0" configVersion="f7b9d9dbd7c387409f48390b37f4caa600000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБКлиентСервер" id="ab2cb3b6-d33e-42bb-b4d4-8062962493cf" configVersion="5e9a55d5c524c74f88d3a3f108daaa5700000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБКлиентСервер.Module" id="ab2cb3b6-d33e-42bb-b4d4-8062962493cf.0" configVersion="4e21492eb0ac3f4ca5c369724eaa41a100000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБРегламентноеЗадание" id="46a8606d-ee03-4ef2-bdb6-ba627c801187" configVersion="255c0ba4d4b48348ab2627910700523200000000"/>
+		<Metadata name="CommonModule.ЗагрузкаКурсовВалютЦБРегламентноеЗадание.Module" id="46a8606d-ee03-4ef2-bdb6-ba627c801187.0" configVersion="441d3aa2fbba98479c1f24b9a791bfec00000000"/>
 		<Metadata name="CommonModule.ЗаданиеНаПеревозкуЛокализация" id="c025e8c1-4703-4432-b9c1-e1b3eed32bd1" configVersion="69c56ddedd28764087b3f9946363701600000000"/>
 		<Metadata name="CommonModule.ЗаданиеНаПеревозкуЛокализация.Module" id="c025e8c1-4703-4432-b9c1-e1b3eed32bd1.0" configVersion="04ca7fc8ed86144f8714322240d0b50400000000"/>
 		<Metadata name="CommonModule.ЗаказКлиентаЛокализация" id="fb6a42b5-0196-496c-94aa-62cbaf65e6fc" configVersion="d050d8fa49ea5a4eb9437542e60c9a7d00000000"/>
@@ -23026,8 +23032,8 @@
 		<Metadata name="CommonModule.ЦенообразованиеКлиент.Module" id="2215f4b2-fa25-4fba-8b56-84ebe7b65866.0" configVersion="b0fc2377795e7b4f887c5d3341512a7500000000"/>
 		<Metadata name="CommonModule.ЦенообразованиеКлиентСервер" id="ad7ec3d9-a18d-49c4-b9d1-bb9e66bac7fd" configVersion="466d5f10081a654086ec1c57200cad7200000000"/>
 		<Metadata name="CommonModule.ЦенообразованиеКлиентСервер.Module" id="ad7ec3d9-a18d-49c4-b9d1-bb9e66bac7fd.0" configVersion="5807bbd584e611449da3c0122f682a0700000000"/>
-		<Metadata name="CommonModule.ЦенообразованиеРасчет" id="eb25045c-cc6d-4344-a6fa-3984b7880dd3" configVersion="0fdd154b50e60a47a57b087c99ea5c4800000000"/>
-		<Metadata name="CommonModule.ЦенообразованиеРасчет.Module" id="eb25045c-cc6d-4344-a6fa-3984b7880dd3.0" configVersion="0b21ce18871f9a4bbfcd738ac1cfff2600000000"/>
+		<Metadata name="CommonModule.ЦенообразованиеРасчет" id="eb25045c-cc6d-4344-a6fa-3984b7880dd3" configVersion="81a30edca65cb346913dfbba6dfad80700000000"/>
+		<Metadata name="CommonModule.ЦенообразованиеРасчет.Module" id="eb25045c-cc6d-4344-a6fa-3984b7880dd3.0" configVersion="3c32bc5279d9534a8025bbfda393a69c00000000"/>
 		<Metadata name="CommonModule.ЦенообразованиеСервер" id="a7e1a2be-caf3-422b-9b6b-53cdc6370220" configVersion="bcac247bcc4695489b438d5b4853a4f100000000"/>
 		<Metadata name="CommonModule.ЦенообразованиеСервер.Module" id="a7e1a2be-caf3-422b-9b6b-53cdc6370220.0" configVersion="3b3b63328a9e1844a860473907257fa400000000"/>
 		<Metadata name="CommonModule.ЦентрМониторинга" id="2fad50a6-6a3e-4f87-ab84-907364427a63" configVersion="c278ae991154c942b26437f059172ca600000000"/>
@@ -27157,7 +27163,7 @@
 		<Metadata name="CommonTemplate.ШаблоныСообщенийEDI.Template" id="ce55d3aa-1145-4dc5-b6e1-869cdc31a8ef.0" configVersion="beceff2ac3987a4d8866d6421e56e40c00000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС" id="97197400-b866-48fa-a789-a2d0fe2906a0" configVersion="0ec38115c275f047a15dcc5cf4a93e2800000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС.Template" id="97197400-b866-48fa-a789-a2d0fe2906a0.0" configVersion="339a40de3a48fb418d2fcf9c347effcd00000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="7ca68397b2f7e54a80bc520652d3375d00000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="cf27ea7f058f1c4ebae851632af0fefc00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ClientApplicationInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.b" configVersion="3360b75d0ed0e5408380a2ae30b7893f00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.CommandInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.a" configVersion="088416bf22632142ad13f8eea7b9b4a600000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.5" configVersion="0ba78efc1b5b7746a98245a832491f5000000000"/>
