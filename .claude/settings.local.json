@@ -22,7 +22,11 @@
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Ext\" -Force)",
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаЭлемента\\\\Ext\\\\Form\" -Force)",
       "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\git\\\\rMyProjects\\\\ut11_aiarsenal_course\\\\src\\\\Catalogs\\\\ПравилаЦенообразованияКатегорий\\\\Forms\\\\ФормаСписка\\\\Ext\" -Force)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(ls \"/c/Program Files/1cv8/\" 2>/dev/null | head; ls \"/c/Program Files \\(x86\\)/1cv8/\" 2>/dev/null | head)",
+      "Read(//c/Program Files/1cv8//**)",
+      "Read(//c/Program Files \\\\\\(x86\\\\\\)/**)",
+      "Bash(grep -n \"^\\\\\\\\\\\\\\\\\" src/CommonModules/ЗагрузкаКурсовВалютЦБ/Ext/Module.bsl src/CommonModules/ЗагрузкаКурсовВалютЦБКлиентСервер/Ext/Module.bsl src/CommonModules/ЗагрузкаКурсовВалютЦБРегламентноеЗадание/Ext/Module.bsl)"
     ]
   }
 }
