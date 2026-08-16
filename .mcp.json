@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "onec-toolkit": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "${ONEC_TOOLKIT_URL:-http://127.0.0.1:6003/mcp}",
+        "--allow-http",
+        "--transport",
+        "http-only",
+        "--header",
+        "Authorization: Bearer ${ONEC_TOOLKIT_TOKEN}"
+      ]
+    },
+    "onec-data": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/aprovodka"],
+      "env": {
+        "ONEC_BASE_URL": "${ONEC_BASE_URL}",
+        "ONEC_LOGIN": "${ONEC_LOGIN}",
+        "ONEC_PASSWORD": "${ONEC_PASSWORD}",
+        "ONEC_WRITE_MODE": "off"
+      }
+    }
+  }
+}
